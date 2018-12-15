@@ -1,0 +1,319 @@
+mach_trap_table offset in file/memory (for patching purposes): 0x74878/fffffff007078878
+Kern invalid should be fffffff0070f3ef0. Ignoring those
+ 10 _kernelrpc_mach_vm_allocate_trap         fffffff0070c406c -
+ 11 _kernelrpc_vm_allocate_trap              fffffff0070c4384 -
+ 12 _kernelrpc_mach_vm_deallocate_trap       fffffff0070c4118 -
+ 14 _kernelrpc_mach_vm_protect_trap          fffffff0070c41c8 -
+ 15 _kernelrpc_vm_protect_trap               fffffff0070c428c -
+ 16 _kernelrpc_mach_port_allocate_trap       fffffff0070c4444 -
+ 17 _kernelrpc_mach_port_destroy_trap        fffffff0070c44e0 -
+ 18 _kernelrpc_mach_port_deallocate_trap     fffffff0070c4544 -
+ 19 _kernelrpc_mach_port_mod_refs_trap       fffffff0070c45a8 -
+ 20 _kernelrpc_mach_port_move_member_trap    fffffff0070c4614 -
+ 21 _kernelrpc_mach_port_insert_right_trap   fffffff0070c467c -
+ 22 _kernelrpc_mach_port_insert_member_trap  fffffff0070c48dc -
+ 23 _kernelrpc_mach_port_extract_member_trap fffffff0070c4944 -
+ 24 __kernelrpc_mach_port_construct_trap     fffffff0070c49ac -
+ 25 __kernelrpc_mach_port_destruct_trap      fffffff0070c4a60 -
+ 26 mach_reply_port                          fffffff0070d7568 -
+ 27 thread_self_trap                         fffffff0070d7540 -
+ 28 task_self_trap                           fffffff0070d7514 -
+ 29 host_self_trap                           fffffff0070d5080 -
+ 31 mach_msg_trap                            fffffff0070c8ae8 -
+ 32 mach_msg_overwrite_trap                  fffffff0070c6a00 -
+ 33 semaphore_signal_trap                    fffffff0070f2738 -
+ 34 semaphore_signal_all_trap                fffffff0070f2814 -
+ 35 semaphore_signal_thread_trap             fffffff0070f262c -
+ 36 semaphore_wait_trap                      fffffff0070f2b10 -
+ 37 semaphore_wait_signal_trap               fffffff0070f2ddc -
+ 38 semaphore_timedwait_trap                 fffffff0070f2cb4 -
+ 39 semaphore_timedwait_signal_trap          fffffff0070f2f08 -
+ 40 kern_invalid                             fffffff0070c4798 -
+ 41 __kernelrpc_mach_port_guard_trap         fffffff0070c4acc -
+ 42 __kernelrpc_mach_port_unguard_trap       fffffff0070c4b38 -
+ 43 map_fd                                   fffffff0070c3f20 -
+ 44 task_name_for_pid                        fffffff0074a1f08 -
+ 45 task_for_pid                             fffffff0074a180c -
+ 46 pid_for_task                             fffffff0074a16c4 -
+ 48 macx_swapon                              fffffff0074a46b8 -
+ 49 macx_swapoff                             fffffff0074a46c0 -
+ 50 thread_get_special_reply_port            fffffff0070d75bc -
+ 51 macx_triggers                            fffffff0074a4618 -
+ 52 macx_backing_store_suspend               fffffff0074a4610 -
+ 53 macx_backing_store_recovery              fffffff0074a4608 -
+ 58 pfz_exit                                 fffffff0070f30e0 -
+ 59 swtch_pri                                fffffff0070f31b0 -
+ 60 swtch                                    fffffff0070f30e8 -
+ 61 thread_switch                            fffffff0070f3448 -
+ 62 clock_sleep_trap                         fffffff0070cebc8 -
+ 70 host_create_mach_voucher_trap            fffffff0070c4ba0 -
+ 72 mach_voucher_extract_attr_recipe_trap    fffffff0070c4db8 -
+ 89 mach_timebase_info_trap                  fffffff0070cdab8 -
+ 90 mach_wait_until_trap                     fffffff0070ce358 -
+ 91 mk_timer_create_trap                     fffffff0070dd464 -
+ 92 mk_timer_destroy_trap                    fffffff0070dd748 -
+ 93 mk_timer_arm_trap                        fffffff0070dd7c8 -
+ 94 mk_timer_cancel_trap                     fffffff0070dd95c -
+ 95 mk_timer_arm_leeway                      fffffff0070dd948 -
+100 iokit_user_client_trap                   fffffff00758ef50 -
+UNDReply_subsys is @0xfffffff007078440
+	__Xund_reply_0: 0xfffffff0070ab3b0 (6200)
+	__Xund_reply_1: 0xfffffff0070ab554 (6201)
+host_priv_subsystem is  @0xfffffff007079bd8!
+	__Xhost_get_boot_info: 0xfffffff00711692c (400)
+	__Xhost_reboot: 0xfffffff007116b08 (401)
+	__Xhost_priv_statistics: 0xfffffff007116cbc (402)
+	__Xhost_default_memory_manager: 0xfffffff007116e90 (403)
+	__Xvm_wire: 0xfffffff007117134 (404)
+	__Xthread_wire: 0xfffffff0071173c8 (405)
+	__Xvm_allocate_cpm: 0xfffffff0071175b8 (406)
+	__Xhost_processors: 0xfffffff007117788 (407)
+	__Xhost_get_clock_control: 0xfffffff007117a48 (408)
+	__Xkmod_create: 0xfffffff007117c28 (409)
+	__Xkmod_destroy: 0xfffffff007117d74 (410)
+	__Xkmod_control: 0xfffffff007117f3c (411)
+	__Xhost_get_special_port: 0xfffffff0071180c0 (412)
+	__Xhost_set_special_port: 0xfffffff00711829c (413)
+	__Xhost_set_exception_ports: 0xfffffff007118458 (414)
+	__Xhost_get_exception_ports: 0xfffffff007118618 (415)
+	__Xhost_swap_exception_ports: 0xfffffff00711899c (416)
+	__Xmach_vm_wire: 0xfffffff007119148 (418)
+	__Xhost_processor_sets: 0xfffffff0071193d0 (419)
+	__Xhost_processor_set_priv: 0xfffffff0071195dc (420)
+	__Xset_dp_control_port: 0x0 (421)
+	__Xget_dp_control_port: 0x0 (422)
+	__Xhost_set_UNDServer: 0xfffffff007119868 (423)
+	__Xhost_get_UNDServer: 0xfffffff007119a24 (424)
+	__Xkext_request: 0xfffffff007119bec (425)
+host_security_subsystem is  @0xfffffff00707a008!
+	__Xhost_security_create_task_token: 0xfffffff00711bca4 (600)
+	__Xhost_security_set_task_token: 0xfffffff00711be5c (601)
+mach_host_subsystem is  @0xfffffff00707a220!
+	__Xhost_info: 0xfffffff00711cac4 (200)
+	__Xhost_kernel_version: 0xfffffff00711cc2c (201)
+	__X_host_page_size: 0xfffffff00711cd98 (202)
+	__Xmach_memory_object_memory_entry: 0xfffffff00711ced0 (203)
+	__Xhost_processor_info: 0xfffffff00711d068 (204)
+	__Xhost_get_io_master: 0xfffffff00711d4b0 (205)
+	__Xhost_get_clock_service: 0xfffffff00711d614 (206)
+	__Xkmod_get_info: 0xfffffff00711d790 (207)
+	__Xhost_zone_info: 0x0 (208)
+	__Xhost_virtual_physical_table_info: 0xfffffff00711d888 (209)
+	__Xprocessor_set_default: 0xfffffff00711d92c (213)
+	__Xprocessor_set_create: 0xfffffff00711da7c (214)
+	__Xmach_memory_object_memory_entry_64: 0xfffffff00711db24 (215)
+	__Xhost_statistics: 0xfffffff00711dcbc (216)
+	__Xhost_request_notification: 0xfffffff00711ded8 (217)
+	__Xhost_lockgroup_info: 0xfffffff00711e1d0 (218)
+	__Xhost_statistics64: 0xfffffff00711e4fc (219)
+	__Xmach_zone_info: 0xfffffff00711e718 (220)
+	__Xhost_create_mach_voucher: 0xfffffff00711ea60 (222)
+	__Xhost_register_mach_voucher_attr_manager: 0xfffffff00711ebe8 (223)
+	__Xhost_register_well_known_mach_voucher_attr_manager: 0xfffffff00711ecec (224)
+	__Xhost_set_atm_diagnostic_flag: 0xfffffff00711edf0 (225)
+	__Xhost_get_atm_diagnostic_flag: 0x0 (226)
+	__Xmach_memory_info: 0xfffffff00711efc0 (227)
+	__Xhost_set_multiuser_config_flags: 0xfffffff00711f204 (228)
+	__Xhost_get_multiuser_config_flags: 0x0 (229)
+mach_vm_subsystem is  @0xfffffff00707ada0!
+	__Xmach_vm_allocate: 0xfffffff007125478 (4800)
+	__Xmach_vm_deallocate: 0xfffffff0071255bc (4801)
+	__Xmach_vm_protect: 0xfffffff00712571c (4802)
+	__Xmach_vm_inherit: 0xfffffff007125894 (4803)
+	__Xmach_vm_read: 0xfffffff0071259a8 (4804)
+	__Xmach_vm_read_list: 0xfffffff007125b40 (4805)
+	__Xmach_vm_write: 0xfffffff007125c88 (4806)
+	__Xmach_vm_copy: 0xfffffff007125ddc (4807)
+	__Xmach_vm_read_overwrite: 0xfffffff007125ef0 (4808)
+	__Xmach_vm_msync: 0xfffffff007126018 (4809)
+	__Xmach_vm_behavior_set: 0xfffffff00712613c (4810)
+	__Xmach_vm_map: 0xfffffff007126250 (4811)
+	__Xmach_vm_machine_attribute: 0xfffffff007126424 (4812)
+	__Xmach_vm_remap: 0xfffffff00712659c (4813)
+	__Xmach_vm_page_query: 0xfffffff007126788 (4814)
+	__Xmach_vm_region_recurse: 0xfffffff007126900 (4815)
+	__Xmach_vm_region: 0xfffffff007126a9c (4816)
+	__X_mach_make_memory_entry: 0xfffffff007126c70 (4817)
+	__Xmach_vm_purgable_control: 0xfffffff007126e38 (4818)
+	__Xmach_vm_page_info: 0xfffffff007126f90 (4819)
+	__Xmach_vm_page_range_query: 0xfffffff0071270f0 (4820)
+processor_subsystem is  @0xfffffff00707b2d0!
+	__Xprocessor_start: 0xfffffff00712c31c (3000)
+	__Xprocessor_exit: 0xfffffff00712c4a0 (3001)
+	__Xprocessor_info: 0xfffffff00712c624 (3002)
+	__Xprocessor_control: 0xfffffff00712c820 (3003)
+	__Xprocessor_assign: 0xfffffff00712c9cc (3004)
+	__Xprocessor_get_assignment: 0xfffffff00712cb48 (3005)
+processor_set_subsystem is  @0xfffffff00707b3e0!
+	__Xprocessor_set_statistics: 0xfffffff00712cd3c (4000)
+	__Xprocessor_set_destroy: 0xfffffff00712cf5c (4001)
+	__Xprocessor_set_max_priority: 0xfffffff00712d0b0 (4002)
+	__Xprocessor_set_policy_enable: 0xfffffff00712d204 (4003)
+	__Xprocessor_set_policy_disable: 0xfffffff00712d358 (4004)
+	__Xprocessor_set_tasks: 0xfffffff00712d4ac (4005)
+	__Xprocessor_set_threads: 0xfffffff00712d904 (4006)
+	__Xprocessor_set_policy_control: 0xfffffff00712da0c (4007)
+	__Xprocessor_set_stack_usage: 0xfffffff00712db80 (4008)
+	__Xprocessor_set_info: 0xfffffff00712df18 (4009)
+task_subsystem is  @0xfffffff00707b590!
+	__Xtask_create: 0xfffffff00712e240 (3400)
+	__Xtask_terminate: 0xfffffff00712e330 (3401)
+	__Xtask_threads: 0xfffffff00712e460 (3402)
+	__Xmach_ports_register: 0xfffffff00712e7cc (3403)
+	__Xmach_ports_lookup: 0xfffffff00712eb24 (3404)
+	__Xtask_info: 0xfffffff00712ed34 (3405)
+	__Xtask_set_info: 0xfffffff00712efb0 (3406)
+	__Xtask_suspend: 0xfffffff00712f29c (3407)
+	__Xtask_resume: 0xfffffff00712f3ac (3408)
+	__Xtask_get_special_port: 0xfffffff00712f4bc (3409)
+	__Xtask_set_special_port: 0xfffffff00712f608 (3410)
+	__Xthread_create: 0xfffffff00712f744 (3411)
+	__Xthread_create_running: 0xfffffff00712f934 (3412)
+	__Xtask_set_exception_ports: 0xfffffff00712fbd4 (3413)
+	__Xtask_get_exception_ports: 0xfffffff00712fd14 (3414)
+	__Xtask_swap_exception_ports: 0xfffffff007130154 (3415)
+	__Xlock_set_create: 0xfffffff00713071c (3416)
+	__Xlock_set_destroy: 0xfffffff0071307d0 (3417)
+	__Xsemaphore_create: 0xfffffff007130918 (3418)
+	__Xsemaphore_destroy: 0xfffffff007130a64 (3419)
+	__Xtask_policy_set: 0xfffffff007130c50 (3420)
+	__Xtask_policy_get: 0xfffffff00713101c (3421)
+	__Xtask_sample: 0x0 (3422)
+	__Xtask_policy: 0xfffffff007131708 (3423)
+	__Xtask_set_emulation: 0xfffffff007131830 (3424)
+	__Xtask_get_emulation_vector: 0xfffffff007131938 (3425)
+	__Xtask_set_emulation_vector: 0xfffffff0071319e8 (3426)
+	__Xtask_set_ras_pc: 0xfffffff007131b24 (3427)
+	__Xtask_zone_info: 0xfffffff007131c2c (3428)
+	__Xtask_assign: 0xfffffff007131ce8 (3429)
+	__Xtask_assign_default: 0xfffffff007131ea4 (3430)
+	__Xtask_get_assignment: 0xfffffff007131fac (3431)
+	__Xtask_set_policy: 0xfffffff0071320f0 (3432)
+	__Xtask_get_state: 0xfffffff007132310 (3433)
+	__Xtask_set_state: 0xfffffff00713253c (3434)
+	__Xtask_set_phys_footprint_limit: 0xfffffff007132948 (3435)
+	__Xtask_suspend2: 0xfffffff007132af8 (3436)
+	__Xtask_resume2: 0xfffffff007132c40 (3437)
+	__Xtask_purgable_info: 0xfffffff007132d40 (3438)
+	__Xtask_get_mach_voucher: 0xfffffff007132ee8 (3439)
+	__Xtask_set_mach_voucher: 0xfffffff007133018 (3440)
+	__Xtask_swap_mach_voucher: 0xfffffff007133264 (3441)
+	__Xtask_generate_corpse: 0xfffffff007133568 (3442)
+	__Xtask_map_corpse_info: 0xfffffff007133860 (3443)
+	__Xtask_register_dyld_image_infos: 0xfffffff007133a0c (3444)
+	__Xtask_unregister_dyld_image_infos: 0xfffffff007133b78 (3445)
+	__Xtask_get_dyld_image_infos: 0xfffffff007133ce4 (3446)
+	__Xtask_register_dyld_shared_cache_image_info: 0xfffffff007133d90 (3447)
+	__Xtask_register_dyld_set_dyld_state: 0xfffffff007133f50 (3448)
+	__Xtask_register_dyld_get_process_state: 0xfffffff007134058 (3449)
+	__Xtask_map_corpse_info_64: 0xfffffff007134170 (3450)
+	__Xtask_inspect: 0xfffffff0071342fc (3451)
+thread_act_subsystem is  @0xfffffff00707bdd0!
+	__Xthread_terminate: 0xfffffff007134500 (3600)
+	__Xact_get_state: 0xfffffff00713460c (3601)
+	__Xact_set_state: 0xfffffff007134770 (3602)
+	__Xthread_get_state: 0xfffffff0071348c0 (3603)
+	__Xthread_set_state: 0xfffffff007134a1c (3604)
+	__Xthread_suspend: 0xfffffff007134b54 (3605)
+	__Xthread_resume: 0xfffffff007134cf4 (3606)
+	__Xthread_abort: 0xfffffff007134e00 (3607)
+	__Xthread_abort_safely: 0xfffffff007134f0c (3608)
+	__Xthread_depress_abort: 0xfffffff007135018 (3609)
+	__Xthread_get_special_port: 0xfffffff007135168 (3610)
+	__Xthread_set_special_port: 0xfffffff0071352f4 (3611)
+	__Xthread_info: 0xfffffff007135498 (3612)
+	__Xthread_set_exception_ports: 0xfffffff007135634 (3613)
+	__Xthread_get_exception_ports: 0xfffffff007135a6c (3614)
+	__Xthread_swap_exception_ports: 0xfffffff007135edc (3615)
+	__Xthread_policy: 0xfffffff0071364bc (3616)
+	__Xthread_policy_set: 0xfffffff007136710 (3617)
+	__Xthread_policy_get: 0xfffffff007136844 (3618)
+	__Xthread_sample: 0x0 (3619)
+	__Xetap_trace_thread: 0x0 (3620)
+	__Xthread_assign: 0xfffffff0071369b0 (3621)
+	__Xthread_assign_default: 0xfffffff007136b68 (3622)
+	__Xthread_get_assignment: 0xfffffff007136c6c (3623)
+	__Xthread_set_policy: 0xfffffff007136da4 (3624)
+	__Xthread_get_mach_voucher: 0xfffffff007137074 (3625)
+	__Xthread_set_mach_voucher: 0xfffffff0071373a8 (3626)
+	__Xthread_swap_mach_voucher: 0xfffffff0071375f8 (3627)
+is_iokit_subsystem is  @0xfffffff00707c980!
+	__Xio_object_get_class: 0xfffffff0071916f4 (2800)
+	__Xio_object_conforms_to: 0xfffffff007191850 (2801)
+	__Xio_iterator_next: 0xfffffff0071919d4 (2802)
+	__Xio_iterator_reset: 0xfffffff007191b24 (2803)
+	__Xio_service_get_matching_services: 0xfffffff007191c90 (2804)
+	__Xio_registry_entry_get_property: 0xfffffff007191d7c (2805)
+	__Xio_registry_create_iterator: 0xfffffff007191f28 (2806)
+	__Xio_registry_iterator_enter_entry: 0xfffffff0071920b0 (2807)
+	__Xio_registry_iterator_exit_entry: 0xfffffff0071921c8 (2808)
+	__Xio_registry_entry_from_path: 0xfffffff0071922e0 (2809)
+	__Xio_registry_entry_get_name: 0xfffffff007192464 (2810)
+	__Xio_registry_entry_get_properties: 0xfffffff0071925c0 (2811)
+	__Xio_registry_entry_get_property_bytes: 0xfffffff007192684 (2812)
+	__Xio_registry_entry_get_child_iterator: 0xfffffff007192830 (2813)
+	__Xio_registry_entry_get_parent_iterator: 0xfffffff0071929c4 (2814)
+	__Xio_service_close: 0xfffffff007192b58 (2816)
+	__Xio_connect_get_service: 0xfffffff007192c64 (2817)
+	__Xio_connect_set_notification_port: 0xfffffff007192e04 (2818)
+	__Xio_connect_map_memory: 0xfffffff007192f3c (2819)
+	__Xio_connect_add_client: 0xfffffff007193104 (2820)
+	__Xio_connect_set_properties: 0xfffffff007193278 (2821)
+	__Xio_connect_method_scalarI_scalarO: 0xfffffff0071933d0 (2822)
+	__Xio_connect_method_scalarI_structureO: 0xfffffff007193550 (2823)
+	__Xio_connect_method_scalarI_structureI: 0xfffffff0071936d0 (2824)
+	__Xio_connect_method_structureI_structureO: 0xfffffff007193848 (2825)
+	__Xio_registry_entry_get_path: 0xfffffff0071939c8 (2826)
+	__Xio_registry_get_root_entry: 0xfffffff007193b74 (2827)
+	__Xio_registry_entry_set_properties: 0xfffffff007193cc0 (2828)
+	__Xio_registry_entry_in_plane: 0xfffffff007193e24 (2829)
+	__Xio_object_get_retain_count: 0xfffffff007193f94 (2830)
+	__Xio_service_get_busy_state: 0xfffffff0071940d4 (2831)
+	__Xio_service_wait_quiet: 0xfffffff007194250 (2832)
+	__Xio_registry_entry_create_iterator: 0xfffffff0071943c8 (2833)
+	__Xio_iterator_is_valid: 0xfffffff007194570 (2834)
+	__Xio_catalog_send_data: 0xfffffff0071946ec (2836)
+	__Xio_catalog_terminate: 0xfffffff0071947b4 (2837)
+	__Xio_catalog_get_data: 0xfffffff00719491c (2838)
+	__Xio_catalog_get_gen_count: 0xfffffff007194a00 (2839)
+	__Xio_catalog_module_loaded: 0xfffffff007194b28 (2840)
+	__Xio_catalog_reset: 0xfffffff007194c90 (2841)
+	__Xio_service_request_probe: 0xfffffff007194dc4 (2842)
+	__Xio_registry_entry_get_name_in_plane: 0xfffffff007194f34 (2843)
+	__Xio_service_match_property_table: 0xfffffff0071950e0 (2844)
+	__Xio_async_method_scalarI_scalarO: 0xfffffff007195240 (2845)
+	__Xio_async_method_scalarI_structureO: 0xfffffff007195454 (2846)
+	__Xio_async_method_scalarI_structureI: 0xfffffff007195668 (2847)
+	__Xio_async_method_structureI_structureO: 0xfffffff007195870 (2848)
+	__Xio_service_add_notification: 0xfffffff007195a88 (2849)
+	__Xio_service_add_interest_notification: 0xfffffff007195c38 (2850)
+	__Xio_service_acknowledge_notification: 0xfffffff007195e54 (2851)
+	__Xio_connect_get_notification_semaphore: 0xfffffff007195fd4 (2852)
+	__Xio_connect_unmap_memory: 0xfffffff00719616c (2853)
+	__Xio_registry_entry_get_location_in_plane: 0xfffffff0071962e8 (2854)
+	__Xio_registry_entry_get_property_recursively: 0xfffffff007196494 (2855)
+	__Xio_service_get_state: 0xfffffff0071966bc (2856)
+	__Xio_service_get_matching_services_ool: 0xfffffff0071967f0 (2857)
+	__Xio_service_match_property_table_ool: 0xfffffff007196968 (2858)
+	__Xio_service_add_notification_ool: 0xfffffff007196ad0 (2859)
+	__Xio_object_get_superclass: 0xfffffff007196d00 (2860)
+	__Xio_object_get_bundle_identifier: 0xfffffff007196f2c (2861)
+	__Xio_service_open_extended: 0xfffffff0071971a0 (2862)
+	__Xio_connect_map_memory_into_task: 0xfffffff0071974f0 (2863)
+	__Xio_connect_unmap_memory_from_task: 0xfffffff0071976a4 (2864)
+	__Xio_connect_method: 0xfffffff007197824 (2865)
+	__Xio_connect_async_method: 0xfffffff007197a84 (2866)
+	__Xio_registry_entry_get_registry_entry_id: 0xfffffff0071984ac (2871)
+	__Xio_connect_method_var_output: 0xfffffff00719862c (2872)
+	__Xio_service_get_matching_service: 0xfffffff0071988a0 (2873)
+	__Xio_service_get_matching_service_ool: 0xfffffff00719898c (2874)
+	__Xio_service_get_authorization_id: 0xfffffff007198b04 (2875)
+	__Xio_service_set_authorization_id: 0xfffffff007198c30 (2876)
+	__Xio_server_version: 0xfffffff007198d4c (2877)
+	__Xio_registry_entry_get_properties_bin: 0xfffffff007198e54 (2878)
+	__Xio_registry_entry_get_property_bin: 0xfffffff007198fb0 (2879)
+	__Xio_service_get_matching_service_bin: 0xfffffff0071991d8 (2880)
+	__Xio_service_get_matching_services_bin: 0xfffffff00719932c (2881)
+	__Xio_service_match_property_table_bin: 0xfffffff007199480 (2882)
+	__Xio_service_add_notification_bin: 0xfffffff0071995d0 (2883)
+	__Xio_registry_entry_get_path_ool: 0xfffffff007199814 (2884)
