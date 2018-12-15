@@ -1,0 +1,344 @@
+1c1
+< Dumping sysctl_set from 0xfffffff0075ff964 (offset in file: 0x5fb964), 49a sysctls follow:
+---
+> Dumping sysctl_set from 0xfffffff0075ff9e4 (offset in file: 0x5fb9e4), 49c sysctls follow:
+3c3
+< 		Handler: 0xfffffff007433a24
+---
+> 		Handler: 0xfffffff007434ae8
+9c9
+< 		Handler: 0xfffffff007433a24
+---
+> 		Handler: 0xfffffff007434ae8
+15c15
+< 		Handler: 0xfffffff0071c875c
+---
+> 		Handler: 0xfffffff0071c89ec
+21c21
+< 		Handler: 0xfffffff0071c875c
+---
+> 		Handler: 0xfffffff0071c89ec
+27c27
+< 		Handler: 0xfffffff0071c875c
+---
+> 		Handler: 0xfffffff0071c89ec
+33c33
+< 		Handler: 0xfffffff0071c875c
+---
+> 		Handler: 0xfffffff0071c89ec
+39c39
+< 		Handler: 0xfffffff0071c875c
+---
+> 		Handler: 0xfffffff0071c89ec
+45c45
+< 		Handler: 0xfffffff0071c875c
+---
+> 		Handler: 0xfffffff0071c89ec
+51c51
+< 		Handler: 0xfffffff0071c875c
+---
+> 		Handler: 0xfffffff0071c89ec
+57c57
+< 		Handler: 0xfffffff0071c875c
+---
+> 		Handler: 0xfffffff0071c89ec
+63c63
+< 		Handler: 0xfffffff0071c875c
+---
+> 		Handler: 0xfffffff0071c89ec
+69c69
+< 		Handler: 0xfffffff007433a24
+---
+> 		Handler: 0xfffffff007434ae8
+75c75
+< 		Handler: 0xfffffff007433a24
+---
+> 		Handler: 0xfffffff007434ae8
+81c81
+< 		Handler: 0xfffffff0071e6938
+---
+> 		Handler: 0xfffffff0071e6bbc
+87c87
+< 		Handler: 0xfffffff0071e6ac0
+---
+> 		Handler: 0xfffffff0071e6d44
+93c93
+< 		Handler: 0xfffffff0071e712c
+---
+> 		Handler: 0xfffffff0071e73b0
+99c99
+< 		Handler: 0xfffffff007433a24
+---
+> 		Handler: 0xfffffff007434ae8
+105c105
+< 		Handler: 0xfffffff007433a24
+---
+> 		Handler: 0xfffffff007434ae8
+111c111
+< 		Handler: 0xfffffff0071e722c
+---
+> 		Handler: 0xfffffff0071e74b0
+117c117
+< 		Handler: 0xfffffff007433a24
+---
+> 		Handler: 0xfffffff007434ae8
+123c123
+< 		Handler: 0xfffffff007433a24
+---
+> 		Handler: 0xfffffff007434ae8
+129c129
+< 		Handler: 0xfffffff0071e733c
+---
+> 		Handler: 0xfffffff0071e75c0
+135c135
+< 		Handler: 0xfffffff007433a24
+---
+> 		Handler: 0xfffffff007434ae8
+141c141
+< 		Handler: 0xfffffff007433a24
+---
+> 		Handler: 0xfffffff007434ae8
+147c147
+< 		Handler: 0xfffffff007433a24
+---
+> 		Handler: 0xfffffff007434ae8
+153c153
+< 		Handler: 0xfffffff007433a24
+---
+> 		Handler: 0xfffffff007434ae8
+159c159
+< 		Handler: 0xfffffff007433a24
+---
+> 		Handler: 0xfffffff007434ae8
+165c165
+< 		Handler: 0xfffffff007433a24
+---
+> 		Handler: 0xfffffff007434ae8
+171c171
+< 		Handler: 0xfffffff007433a24
+---
+> 		Handler: 0xfffffff007434ae8
+177c177
+< 		Handler: 0xfffffff007433a24
+---
+> 		Handler: 0xfffffff007434ae8
+183c183
+< 		Handler: 0xfffffff007433a24
+---
+> 		Handler: 0xfffffff007434ae8
+189c189
+< 		Handler: 0xfffffff007433a24
+---
+> 		Handler: 0xfffffff007434ae8
+195c195
+< 		Handler: 0xfffffff007433a24
+---
+> 		Handler: 0xfffffff007434ae8
+201c201
+< 		Handler: 0xfffffff007433a24
+---
+> 		Handler: 0xfffffff007434ae8
+207c207
+< 		Handler: 0xfffffff007433a24
+---
+> 		Handler: 0xfffffff007434ae8
+213c213
+< 		Handler: 0xfffffff007433a24
+---
+> 		Handler: 0xfffffff007434ae8
+219c219
+< 		Handler: 0xfffffff007433a24
+---
+> 		Handler: 0xfffffff007434ae8
+225c225
+< 		Handler: 0xfffffff007433a24
+---
+> 		Handler: 0xfffffff007434ae8
+231c231
+< 		Handler: 0xfffffff007433a24
+---
+> 		Handler: 0xfffffff007434ae8
+237c237
+< 		Handler: 0xfffffff007433a24
+---
+> 		Handler: 0xfffffff007434ae8
+243c243
+< 		Handler: 0xfffffff007433df8
+---
+> 		Handler: 0xfffffff007434ebc
+249c249
+< 		Handler: 0xfffffff007433a24
+---
+> 		Handler: 0xfffffff007434ae8
+255c255
+< 		Handler: 0xfffffff007433a24
+---
+> 		Handler: 0xfffffff007434ae8
+261c261
+< 		Handler: 0xfffffff007433a24
+---
+> 		Handler: 0xfffffff007434ae8
+267c267
+< 		Handler: 0xfffffff007433a24
+---
+> 		Handler: 0xfffffff007434ae8
+273c273
+< 		Handler: 0xfffffff007235608
+---
+> 		Handler: 0xfffffff00723588c
+279c279
+< 		Handler: 0xfffffff007235668
+---
+> 		Handler: 0xfffffff0072358ec
+285c285
+< 		Handler: 0xfffffff007433a24
+---
+> 		Handler: 0xfffffff007434ae8
+291c291
+< 		Handler: 0xfffffff0072356c8
+---
+> 		Handler: 0xfffffff00723594c
+297c297
+< 		Handler: 0xfffffff007235734
+---
+> 		Handler: 0xfffffff0072359b8
+303c303
+< 		Handler: 0xfffffff0072357a0
+---
+> 		Handler: 0xfffffff007235a24
+309c309
+< 		Handler: 0xfffffff007433a24
+---
+> 		Handler: 0xfffffff007434ae8
+315c315
+< 		Handler: 0xfffffff007235800
+---
+> 		Handler: 0xfffffff007235a84
+321c321
+< 		Handler: 0xfffffff007235878
+---
+> 		Handler: 0xfffffff007235afc
+327c327
+< 		Handler: 0xfffffff007433a24
+---
+> 		Handler: 0xfffffff007434ae8
+333c333
+< 		Handler: 0xfffffff0072358f0
+---
+> 		Handler: 0xfffffff007235b74
+339c339
+< 		Handler: 0xfffffff007433a24
+---
+> 		Handler: 0xfffffff007434ae8
+345c345
+< 		Handler: 0xfffffff007433a24
+---
+> 		Handler: 0xfffffff007434ae8
+351c351
+< 		Handler: 0xfffffff007433a24
+---
+> 		Handler: 0xfffffff007434ae8
+357c357
+< 		Handler: 0xfffffff007433be0
+---
+> 		Handler: 0xfffffff007434ca4
+363c363
+< 		Handler: 0xfffffff007433a24
+---
+> 		Handler: 0xfffffff007434ae8
+369c369
+< 		Handler: 0xfffffff007433a24
+---
+> 		Handler: 0xfffffff007434ae8
+375c375
+< 		Handler: 0xfffffff007433a24
+---
+> 		Handler: 0xfffffff007434ae8
+381c381
+< 		Handler: 0xfffffff007235964
+---
+> 		Handler: 0xfffffff007235be8
+387c387
+< 		Handler: 0xfffffff007433be0
+---
+> 		Handler: 0xfffffff007434ca4
+393c393
+< 		Handler: 0xfffffff007433be0
+---
+> 		Handler: 0xfffffff007434ca4
+399c399
+< 		Handler: 0xfffffff0072359f4
+---
+> 		Handler: 0xfffffff007235c78
+405c405
+< 		Handler: 0xfffffff007235a68
+---
+> 		Handler: 0xfffffff007235cec
+411c411
+< 		Handler: 0xfffffff007433be0
+---
+> 		Handler: 0xfffffff007434ca4
+417c417
+< 		Handler: 0xfffffff007433be0
+---
+> 		Handler: 0xfffffff007434ca4
+423c423
+< 		Handler: 0xfffffff007433be0
+---
+> 		Handler: 0xfffffff007434ca4
+429c429
+< 		Handler: 0xfffffff007433be0
+---
+> 		Handler: 0xfffffff007434ca4
+435c435
+< 		Handler: 0xfffffff007433be0
+---
+> 		Handler: 0xfffffff007434ca4
+441c441
+< 		Handler: 0xfffffff007433be0
+---
+> 		Handler: 0xfffffff007434ca4
+447c447
+< 		Handler: 0xfffffff007433a24
+---
+> 		Handler: 0xfffffff007434ae8
+453c453
+< 		Handler: 0xfffffff007433a24
+---
+> 		Handler: 0xfffffff007434ae8
+459c459
+< 		Handler: 0xfffffff007235adc
+---
+> 		Handler: 0xfffffff007235d60
+465c465
+< 		Handler: 0xfffffff007433a24
+---
+> 		Handler: 0xfffffff007434ae8
+471c471
+< 		Handler: 0xfffffff007433a24
+---
+> 		Handler: 0xfffffff007434ae8
+477c477
+< 		Handler: 0xfffffff007433a24
+---
+> 		Handler: 0xfffffff007434ae8
+483c483
+< 		Handler: 0xfffffff007433df8
+---
+> 		Handler: 0xfffffff007434ebc
+489c489
+< 		Handler: 0xfffffff007235b04
+---
+> 		Handler: 0xfffffff007235d88
+495c495
+< 		Handler: 0xfffffff007248144
+---
+> 		Handler: 0xfffffff0072483b8
+501c501
+< 		Handler: 0xfffffff0072481b0
+---
+> 		Handler: 0xfffffff007248424
+507c507
+< 		Handler: 0xfffffff007248230
+---
+> 		Handler: 0xfffffff0072484a4
