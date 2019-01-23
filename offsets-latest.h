@@ -1,4 +1,4 @@
-#define KERNEL_BASE 0xfffffff007098000
+#define KERNEL_BASE 
 #define KERNEL_MAP 0xfffffff007602080
 #define KERNEL_TASK 0xfffffff007602078
 #define BZERO 0xffffff0070996c0
