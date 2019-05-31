@@ -1,0 +1,510 @@
+Dumping sysctl_set from 0xfffffff0075f7a74 (offset in file: 0x5f3a74), 49d sysctls follow:
+0xfffffff0075d02d0: kern.nbuf	Description: 
+		Handler: 0xfffffff007432d60
+		Format: I
+		Parent: 0xfffffff0075fa140
+		Arg1: fffffff0076447dc
+		Arg2: 0x0
+0xfffffff0075d0320: kern.maxnbuf	Description: 
+		Handler: 0xfffffff007432d60
+		Format: I
+		Parent: 0xfffffff0075fa140
+		Arg1: fffffff0076447d0
+		Arg2: 0x0
+0xfffffff0075d03c0: kern.monotonic.supported	Description: whether monotonic is supported
+		Handler: 0xfffffff0071c75a4
+		Format: I
+		Parent: 0xfffffff007644808
+		Arg1: 0
+		Arg2: 0x4
+0xfffffff0075d0410: kern.monotonic.debug	Description: whether monotonic is printing debug messages
+		Handler: 0xfffffff0071c75a4
+		Format: I
+		Parent: 0xfffffff007644808
+		Arg1: 4
+		Arg2: 0x4
+0xfffffff0075d0460: kern.monotonic.pmis	Description: number of PMIs seen
+		Handler: 0xfffffff0071c75a4
+		Format: Q
+		Parent: 0xfffffff007644808
+		Arg1: 1
+		Arg2: 0x8
+0xfffffff0075d04b0: kern.monotonic.retrograde_updates	Description: number of times a counter appeared to go backwards
+		Handler: 0xfffffff0071c75a4
+		Format: Q
+		Parent: 0xfffffff007644808
+		Arg1: 2
+		Arg2: 0x8
+0xfffffff0075d0500: kern.monotonic.task_thread_counting	Description: whether task and thread counting is enabled
+		Handler: 0xfffffff0071c75a4
+		Format: I
+		Parent: 0xfffffff007644808
+		Arg1: 3
+		Arg2: 0x4
+0xfffffff0075d0550: kern.monotonic.kdebug_test	Description: whether task and thread counting is enabled
+		Handler: 0xfffffff0071c75a4
+		Format: O
+		Parent: 0xfffffff007644808
+		Arg1: 5
+		Arg2: 0x4
+0xfffffff0075d05a0: kern.monotonic.fixed_cpu_perf	Description: overhead of accessing the current CPU's counters
+		Handler: 0xfffffff0071c75a4
+		Format: O
+		Parent: 0xfffffff007644808
+		Arg1: 6
+		Arg2: 0x10
+0xfffffff0075d05f0: kern.monotonic.fixed_thread_perf	Description: overhead of accessing the current thread's counters
+		Handler: 0xfffffff0071c75a4
+		Format: O
+		Parent: 0xfffffff007644808
+		Arg1: 7
+		Arg2: 0x10
+0xfffffff0075d0640: kern.monotonic.fixed_task_perf	Description: overhead of accessing the current task's counters
+		Handler: 0xfffffff0071c75a4
+		Format: O
+		Parent: 0xfffffff007644808
+		Arg1: 8
+		Arg2: 0x10
+0xfffffff0075d0970: debug.lowpri_throttle_max_iosize	Description: 
+		Handler: 0xfffffff007432d60
+		Format: I
+		Parent: 0xfffffff0075fa160
+		Arg1: fffffff0075d0968
+		Arg2: 0x0
+0xfffffff0075d0ce0: vfs.nummntops	Description: 
+		Handler: 0xfffffff007432d60
+		Format: I
+		Parent: 0xfffffff0075fa150
+		Arg1: fffffff007649384
+		Arg2: 0x0
+0xfffffff0075d0d88: vfs.generic.vfsidlist	Description: List of mounted filesystem ids
+		Handler: 0xfffffff0071e5504
+		Format: S,fsid
+		Parent: 0xfffffff0075fa0c0
+		Arg1: 0
+		Arg2: 0x0
+0xfffffff0075d0df0: vfs.generic.ctlbyfsid	Description: ctlbyfsid
+		Handler: 0xfffffff0071e568c
+		Format: N
+		Parent: 0xfffffff0075fa0c0
+		Arg1: fffffff007649320
+		Arg2: 0x0
+0xfffffff0075d0e40: vfs.generic.noremotehang	Description: noremotehang
+		Handler: 0xfffffff0071e5cc4
+		Format: I
+		Parent: 0xfffffff0075fa0c0
+		Arg1: 0
+		Arg2: 0x0
+0xfffffff0075d0e90: vfs.generic.maxtypenum	Description: 
+		Handler: 0xfffffff007432d60
+		Format: I
+		Parent: 0xfffffff0075fa0c0
+		Arg1: fffffff0075d0a08
+		Arg2: 0x0
+0xfffffff0075d0ee0: vfs.generic.sync_timeout	Description: 
+		Handler: 0xfffffff007432d60
+		Format: I
+		Parent: 0xfffffff0075fa0c0
+		Arg1: fffffff0075d1118
+		Arg2: 0x0
+0xfffffff0075d0f30: vfs.generic.conf	Description: 
+		Handler: 0xfffffff0071e5dc4
+		Format: N
+		Parent: 0xfffffff0075fa0c0
+		Arg1: fffffff007649328
+		Arg2: 0x0
+0xfffffff0075d0f80: vfs.generic.root_unmounted_cleanly	Description: Root filesystem was unmounted cleanly
+		Handler: 0xfffffff007432d60
+		Format: I
+		Parent: 0xfffffff0075fa0c0
+		Arg1: fffffff007649330
+		Arg2: 0x0
+0xfffffff0075d0fd0: kern.flush_cache_on_write	Description: always flush the drive cache on writes to uncached files
+		Handler: 0xfffffff007432d60
+		Format: I
+		Parent: 0xfffffff0075fa140
+		Arg1: fffffff007649340
+		Arg2: 0x0
+0xfffffff0075d1020: vfs.generic.trace_paths	Description: trace_paths
+		Handler: 0xfffffff0071e5ed4
+		Format: -
+		Parent: 0xfffffff0075fa0c0
+		Arg1: 0
+		Arg2: 0x0
+0xfffffff0075d2dd0: debug.lowpri_throttle_tier1_window_msecs	Description: 
+		Handler: 0xfffffff007432d60
+		Format: I
+		Parent: 0xfffffff0075fa160
+		Arg1: fffffff0075d2dc4
+		Arg2: 0x0
+0xfffffff0075d2e20: debug.lowpri_throttle_tier2_window_msecs	Description: 
+		Handler: 0xfffffff007432d60
+		Format: I
+		Parent: 0xfffffff0075fa160
+		Arg1: fffffff0075d2dc8
+		Arg2: 0x0
+0xfffffff0075d2e70: debug.lowpri_throttle_tier3_window_msecs	Description: 
+		Handler: 0xfffffff007432d60
+		Format: I
+		Parent: 0xfffffff0075fa160
+		Arg1: fffffff0075d2dcc
+		Arg2: 0x0
+0xfffffff0075d2ec0: debug.lowpri_throttle_tier1_io_period_msecs	Description: 
+		Handler: 0xfffffff007432d60
+		Format: I
+		Parent: 0xfffffff0075fa160
+		Arg1: fffffff0075d2d90
+		Arg2: 0x0
+0xfffffff0075d2f10: debug.lowpri_throttle_tier2_io_period_msecs	Description: 
+		Handler: 0xfffffff007432d60
+		Format: I
+		Parent: 0xfffffff0075fa160
+		Arg1: fffffff0075d2d94
+		Arg2: 0x0
+0xfffffff0075d2f60: debug.lowpri_throttle_tier3_io_period_msecs	Description: 
+		Handler: 0xfffffff007432d60
+		Format: I
+		Parent: 0xfffffff0075fa160
+		Arg1: fffffff0075d2d98
+		Arg2: 0x0
+0xfffffff0075d2fb0: debug.lowpri_throttle_tier1_io_period_ssd_msecs	Description: 
+		Handler: 0xfffffff007432d60
+		Format: I
+		Parent: 0xfffffff0075fa160
+		Arg1: fffffff0075d2da0
+		Arg2: 0x0
+0xfffffff0075d3000: debug.lowpri_throttle_tier2_io_period_ssd_msecs	Description: 
+		Handler: 0xfffffff007432d60
+		Format: I
+		Parent: 0xfffffff0075fa160
+		Arg1: fffffff0075d2da4
+		Arg2: 0x0
+0xfffffff0075d3050: debug.lowpri_throttle_tier3_io_period_ssd_msecs	Description: 
+		Handler: 0xfffffff007432d60
+		Format: I
+		Parent: 0xfffffff0075fa160
+		Arg1: fffffff0075d2da8
+		Arg2: 0x0
+0xfffffff0075d30a0: debug.lowpri_throttle_enabled	Description: 
+		Handler: 0xfffffff007432d60
+		Format: I
+		Parent: 0xfffffff0075fa160
+		Arg1: fffffff0075d2d88
+		Arg2: 0x0
+0xfffffff0075d3b58: debug.bpf_bufsize	Description: 
+		Handler: 0xfffffff007432d60
+		Format: I
+		Parent: 0xfffffff0075fa160
+		Arg1: fffffff0075d3ba8
+		Arg2: 0x0
+0xfffffff0075d3bb0: debug.bpf_maxbufsize	Description: 
+		Handler: 0xfffffff007432d60
+		Format: I
+		Parent: 0xfffffff0075fa160
+		Arg1: fffffff0075d3bac
+		Arg2: 0x0
+0xfffffff0075d3c00: debug.bpf_maxdevices	Description: 
+		Handler: 0xfffffff007432d60
+		Format: IU
+		Parent: 0xfffffff0075fa160
+		Arg1: fffffff0075d3c50
+		Arg2: 0x0
+0xfffffff0075d3c58: debug.bpf_wantpktap	Description: 
+		Handler: 0xfffffff007432d60
+		Format: IU
+		Parent: 0xfffffff0075fa160
+		Arg1: fffffff0075d3ca8
+		Arg2: 0x0
+0xfffffff0075d3cb0: debug.bpf_debug	Description: 
+		Handler: 0xfffffff007432d60
+		Format: I
+		Parent: 0xfffffff0075fa160
+		Arg1: fffffff007651c78
+		Arg2: 0x0
+0xfffffff0075d3e58: net.link.bridge.inherit_mac	Description: Inherit MAC address from the first bridge member
+		Handler: 0xfffffff007432d60
+		Format: I
+		Parent: 0xfffffff007651cd0
+		Arg1: fffffff007651cd8
+		Arg2: 0x0
+0xfffffff0075d3ea8: net.link.bridge.rtable_prune_period	Description: Interval between pruning of routing table
+		Handler: 0xfffffff007432d60
+		Format: I
+		Parent: 0xfffffff007651cd0
+		Arg1: fffffff0075d3ef8
+		Arg2: 0x0
+0xfffffff0075d3f00: net.link.bridge.rtable_hash_size_max	Description: Maximum size of the routing hash table
+		Handler: 0xfffffff007432d60
+		Format: IU
+		Parent: 0xfffffff007651cd0
+		Arg1: fffffff0075d3f50
+		Arg2: 0x0
+0xfffffff0075d3f58: net.link.bridge.hostfilterstats	Description: 
+		Handler: 0xfffffff00743313c
+		Format: S,bridge_hostfilter_stats
+		Parent: 0xfffffff007651cd0
+		Arg1: fffffff007651ce0
+		Arg2: 0xc8
+0xfffffff0075d3fa8: net.link.bridge.txstart	Description: Bridge interface uses TXSTART model
+		Handler: 0xfffffff007432d60
+		Format: I
+		Parent: 0xfffffff007651cd0
+		Arg1: fffffff007651da8
+		Arg2: 0x0
+0xfffffff0075d3ff8: net.link.bridge.debug	Description: Bridge debug
+		Handler: 0xfffffff007432d60
+		Format: I
+		Parent: 0xfffffff007651cd0
+		Arg1: fffffff007651dac
+		Arg2: 0x0
+0xfffffff0075d4260: system.if_verbose	Description: 
+		Handler: 0xfffffff007432d60
+		Format: I
+		Parent: 0xfffffff007652408
+		Arg1: fffffff007651e08
+		Arg2: 0x0
+0xfffffff0075d43b8: system.dlil_verbose	Description: Log DLIL error messages
+		Handler: 0xfffffff007432d60
+		Format: I
+		Parent: 0xfffffff007652408
+		Arg1: fffffff007652080
+		Arg2: 0x0
+0xfffffff0075d4410: system.sndq_maxlen	Description: Default transmit queue max length
+		Handler: 0xfffffff007234804
+		Format: I
+		Parent: 0xfffffff007652408
+		Arg1: fffffff0075d4408
+		Arg2: 0x80
+0xfffffff0075d4468: system.rcvq_maxlen	Description: Default receive queue max length
+		Handler: 0xfffffff007234864
+		Format: I
+		Parent: 0xfffffff007652408
+		Arg1: fffffff0075d4460
+		Arg2: 0x80
+0xfffffff0075d44b8: system.rxpoll_decay	Description: ilog2 of EWMA decay rate of avg inbound packets
+		Handler: 0xfffffff007432d60
+		Format: IU
+		Parent: 0xfffffff007652408
+		Arg1: fffffff0075d4508
+		Arg2: 0x2
+0xfffffff0075d4510: system.rxpoll_freeze_time	Description: input poll mode freeze time
+		Handler: 0xfffffff0072348c4
+		Format: Q
+		Parent: 0xfffffff007652408
+		Arg1: fffffff0075d4560
+		Arg2: 0x3b9aca00
+0xfffffff0075d4568: system.rxpoll_sample_time	Description: input poll sampling time
+		Handler: 0xfffffff007234930
+		Format: Q
+		Parent: 0xfffffff007652408
+		Arg1: fffffff0075d45b8
+		Arg2: 0x989680
+0xfffffff0075d45c0: system.rxpoll_interval_time	Description: input poll interval (time)
+		Handler: 0xfffffff00723499c
+		Format: Q
+		Parent: 0xfffffff007652408
+		Arg1: fffffff0075d4610
+		Arg2: 0xf4240
+0xfffffff0075d4618: system.rxpoll_interval_pkts	Description: input poll interval (packets)
+		Handler: 0xfffffff007432d60
+		Format: IU
+		Parent: 0xfffffff007652408
+		Arg1: fffffff007652084
+		Arg2: 0x0
+0xfffffff0075d4668: system.rxpoll_wakeups_lowat	Description: input poll wakeup low watermark
+		Handler: 0xfffffff0072349fc
+		Format: I
+		Parent: 0xfffffff007652408
+		Arg1: fffffff0075d46b8
+		Arg2: 0xa
+0xfffffff0075d46c0: system.rxpoll_wakeups_hiwat	Description: input poll wakeup high watermark
+		Handler: 0xfffffff007234a74
+		Format: I
+		Parent: 0xfffffff007652408
+		Arg1: fffffff0075d46bc
+		Arg2: 0x64
+0xfffffff0075d4710: system.rxpoll_max	Description: max packets per poll call
+		Handler: 0xfffffff007432d60
+		Format: IU
+		Parent: 0xfffffff007652408
+		Arg1: fffffff007652088
+		Arg2: 0x0
+0xfffffff0075d4760: system.rxpoll	Description: enable opportunistic input polling
+		Handler: 0xfffffff007234aec
+		Format: I
+		Parent: 0xfffffff007652408
+		Arg1: fffffff0075d47b0
+		Arg2: 0x0
+0xfffffff0075d47b8: system.dlil_input_threads	Description: Current number of DLIL input threads
+		Handler: 0xfffffff007432d60
+		Format: IU
+		Parent: 0xfffffff007652408
+		Arg1: fffffff00765208c
+		Arg2: 0x0
+0xfffffff0075d4808: system.flow_advisory	Description: enable flow-advisory mechanism
+		Handler: 0xfffffff007432d60
+		Format: IU
+		Parent: 0xfffffff007652408
+		Arg1: fffffff0075d4858
+		Arg2: 0x1
+0xfffffff0075d4860: system.delaybased_queue	Description: enable delay based dynamic queue sizing
+		Handler: 0xfffffff007432d60
+		Format: IU
+		Parent: 0xfffffff007652408
+		Arg1: fffffff0075d48b0
+		Arg2: 0x1
+0xfffffff0075d48b8: system.hwcksum_in_invalidated	Description: inbound packets with invalidated hardware cksum
+		Handler: 0xfffffff007432f20
+		Format: Q
+		Parent: 0xfffffff007652408
+		Arg1: fffffff007652090
+		Arg2: 0x0
+0xfffffff0075d4908: system.hwcksum_dbg	Description: enable hardware cksum debugging
+		Handler: 0xfffffff007432d60
+		Format: IU
+		Parent: 0xfffffff007652408
+		Arg1: fffffff007652098
+		Arg2: 0x0
+0xfffffff0075d4958: system.start_delayed	Description: number of times start was delayed
+		Handler: 0xfffffff007432d60
+		Format: IU
+		Parent: 0xfffffff007652408
+		Arg1: fffffff00765209c
+		Arg2: 0x0
+0xfffffff0075d49a8: system.start_delay_disabled	Description: number of times start was delayed
+		Handler: 0xfffffff007432d60
+		Format: IU
+		Parent: 0xfffffff007652408
+		Arg1: fffffff0076520a0
+		Arg2: 0x0
+0xfffffff0075d49f8: system.hwcksum_dbg_mode	Description: hardware cksum debugging mode
+		Handler: 0xfffffff007234b60
+		Format: I
+		Parent: 0xfffffff007652408
+		Arg1: fffffff0076520a4
+		Arg2: 0x0
+0xfffffff0075d4a48: system.hwcksum_dbg_partial_forced	Description: packets forced using partial cksum
+		Handler: 0xfffffff007432f20
+		Format: Q
+		Parent: 0xfffffff007652408
+		Arg1: fffffff0076520a8
+		Arg2: 0x0
+0xfffffff0075d4a98: system.hwcksum_dbg_partial_forced_bytes	Description: bytes forced using partial cksum
+		Handler: 0xfffffff007432f20
+		Format: Q
+		Parent: 0xfffffff007652408
+		Arg1: fffffff0076520b0
+		Arg2: 0x0
+0xfffffff0075d4ae8: system.hwcksum_dbg_partial_rxoff_forced	Description: forced partial cksum rx offset
+		Handler: 0xfffffff007234bf0
+		Format: I
+		Parent: 0xfffffff007652408
+		Arg1: fffffff0076520b8
+		Arg2: 0x0
+0xfffffff0075d4b38: system.hwcksum_dbg_partial_rxoff_adj	Description: adjusted partial cksum rx offset
+		Handler: 0xfffffff007234c64
+		Format: I
+		Parent: 0xfffffff007652408
+		Arg1: fffffff0076520bc
+		Arg2: 0x0
+0xfffffff0075d4b88: system.hwcksum_dbg_verified	Description: packets verified for having good checksum
+		Handler: 0xfffffff007432f20
+		Format: Q
+		Parent: 0xfffffff007652408
+		Arg1: fffffff0076520c0
+		Arg2: 0x0
+0xfffffff0075d4bd8: system.hwcksum_dbg_bad_cksum	Description: packets with bad hardware calculated checksum
+		Handler: 0xfffffff007432f20
+		Format: Q
+		Parent: 0xfffffff007652408
+		Arg1: fffffff0076520c8
+		Arg2: 0x0
+0xfffffff0075d4c28: system.hwcksum_dbg_bad_rxoff	Description: packets with invalid rxoff
+		Handler: 0xfffffff007432f20
+		Format: Q
+		Parent: 0xfffffff007652408
+		Arg1: fffffff0076520d0
+		Arg2: 0x0
+0xfffffff0075d4c78: system.hwcksum_dbg_adjusted	Description: packets with rxoff adjusted
+		Handler: 0xfffffff007432f20
+		Format: Q
+		Parent: 0xfffffff007652408
+		Arg1: fffffff0076520d8
+		Arg2: 0x0
+0xfffffff0075d4cc8: system.hwcksum_dbg_finalized_hdr	Description: finalized headers
+		Handler: 0xfffffff007432f20
+		Format: Q
+		Parent: 0xfffffff007652408
+		Arg1: fffffff0076520e0
+		Arg2: 0x0
+0xfffffff0075d4d18: system.hwcksum_dbg_finalized_data	Description: finalized payloads
+		Handler: 0xfffffff007432f20
+		Format: Q
+		Parent: 0xfffffff007652408
+		Arg1: fffffff0076520e8
+		Arg2: 0x0
+0xfffffff0075d4d70: system.hwcksum_tx	Description: enable transmit hardware checksum offload
+		Handler: 0xfffffff007432d60
+		Format: IU
+		Parent: 0xfffffff007652408
+		Arg1: fffffff0075d4d68
+		Arg2: 0x0
+0xfffffff0075d4dc8: system.hwcksum_rx	Description: enable receive hardware checksum offload
+		Handler: 0xfffffff007432d60
+		Format: IU
+		Parent: 0xfffffff007652408
+		Arg1: fffffff0075d4dc0
+		Arg2: 0x0
+0xfffffff0075d4e18: system.tx_chain_len_stats	Description: 
+		Handler: 0xfffffff007234cd8
+		Format: S
+		Parent: 0xfffffff007652408
+		Arg1: 0
+		Arg2: 0x9
+0xfffffff0075d4e68: system.tx_chain_len_count	Description: 
+		Handler: 0xfffffff007432d60
+		Format: IU
+		Parent: 0xfffffff007652408
+		Arg1: fffffff007652118
+		Arg2: 0x0
+0xfffffff0075d4eb8: system.threshold_notify	Description: 
+		Handler: 0xfffffff007432d60
+		Format: IU
+		Parent: 0xfffffff007652408
+		Arg1: fffffff0075d4f08
+		Arg2: 0x0
+0xfffffff0075d4f10: system.threshold_interval	Description: 
+		Handler: 0xfffffff007432d60
+		Format: IU
+		Parent: 0xfffffff007652408
+		Arg1: fffffff0075d4f60
+		Arg2: 0x0
+0xfffffff0075d4f68: net.api_stats	Description: 
+		Handler: 0xfffffff00743313c
+		Format: S,net_api_stats
+		Parent: 0xfffffff0075fa158
+		Arg1: fffffff007652120
+		Arg2: 0x188
+0xfffffff0075d4fc0: system.enable_netagent	Description: enable netagent
+		Handler: 0xfffffff007234d00
+		Format: IU
+		Parent: 0xfffffff007652408
+		Arg1: 0
+		Arg2: 0x0
+0xfffffff0075d5150: loopback.max_dequeue	Description: Maximum number of packets dequeued at a time
+		Handler: 0xfffffff0072472f8
+		Format: I
+		Parent: 0xfffffff0076523e0
+		Arg1: fffffff0075d51a0
+		Arg2: 0x100
+0xfffffff0075d51a8: loopback.sched_model	Description: Scheduling model
+		Handler: 0xfffffff007247364
+		Format: I
+		Parent: 0xfffffff0076523e0
+		Arg1: fffffff0076523e8
+		Arg2: 0x0
+0xfffffff0075d51f8: loopback.dequeue_sc	Description: Dequeue a specific SC index
+		Handler: 0xfffffff0072473e4
+		Format: I
+		Parent: 0xfffffff0076523e0
+		Arg1: fffffff0076523ec

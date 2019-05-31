@@ -45,3 +45,8 @@
 -  of iOS  Seems to have the same syscalls as 12.3.1. 
 -  of iOS  Seems to have the same MACH traps as 12.3.1.
 -  of iOS  seems to have the same offsets as 12.3.1.  
+- Darwin Kernel Version 18.6.0: Thu Apr 25 22:14:02 PDT 2019; root:xnu-4903.262.2~2/RELEASE_ARM64_S8000 of iOS 12.3.1 Seems to have new kexts or they moved to different addresses in comparrison to 12.3.1.  
+- Darwin Kernel Version 18.6.0: Thu Apr 25 22:14:02 PDT 2019; root:xnu-4903.262.2~2/RELEASE_ARM64_S8000 of iOS 12.3.1 Seems to have new sysctls or they moved to different addresses in comparrison to 12.3.1.  
+- Darwin Kernel Version 18.6.0: Thu Apr 25 22:14:02 PDT 2019; root:xnu-4903.262.2~2/RELEASE_ARM64_S8000 of iOS 12.3.1 Seems to have new syscalls or they moved to different addresses in comparrison to 12.3.1.  
+- Darwin Kernel Version 18.6.0: Thu Apr 25 22:14:02 PDT 2019; root:xnu-4903.262.2~2/RELEASE_ARM64_S8000 of iOS 12.3.1 Seems to have new MACH traps or they moved to different addresses in comparrison to 12.3.1.  
+- Darwin Kernel Version 18.6.0: Thu Apr 25 22:14:02 PDT 2019; root:xnu-4903.262.2~2/RELEASE_ARM64_S8000 of iOS 12.3.1 has new offsets in comparrison to 12.3.1.  
