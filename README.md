@@ -60,3 +60,8 @@
 -  of iOS  Seems to have the same syscalls as 12.3.1. 
 -  of iOS  Seems to have the same MACH traps as 12.3.1.
 -  of iOS  seems to have the same offsets as 12.3.1.  
+-  of iOS  Seems to have the same kexts as 12.3.1.  
+-  of iOS  Seems to have the same sysctls as 12.3.1.  
+-  of iOS  Seems to have the same syscalls as 12.3.1. 
+-  of iOS  Seems to have the same MACH traps as 12.3.1.
+-  of iOS  seems to have the same offsets as 12.3.1.  
