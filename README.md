@@ -125,3 +125,8 @@
 -  of iOS 13.0 Seems to have new syscalls or they moved to different addresses in comparrison to 12.4.1.  
 -  of iOS 13.0 Seems to have new MACH traps or they moved to different addresses in comparrison to 12.4.1.  
 -  of iOS 13.0 seems to have the same offsets as 12.4.1.  
+-  of iOS 13.1 Seems to have the same kexts as 13.0.  
+-  of iOS 13.1 Seems to have the same sysctls as 13.0.  
+-  of iOS 13.1 Seems to have the same syscalls as 13.0. 
+-  of iOS 13.1 Seems to have the same MACH traps as 13.0.
+-  of iOS 13.1 seems to have the same offsets as 13.0.  
