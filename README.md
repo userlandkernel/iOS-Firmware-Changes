@@ -140,3 +140,8 @@
 -  of iOS 13.1.2 Seems to have the same syscalls as 13.1.1. 
 -  of iOS 13.1.2 Seems to have the same MACH traps as 13.1.1.
 -  of iOS 13.1.2 seems to have the same offsets as 13.1.1.  
+-  of iOS 13.1.3 Seems to have the same kexts as 13.1.2.  
+-  of iOS 13.1.3 Seems to have the same sysctls as 13.1.2.  
+-  of iOS 13.1.3 Seems to have the same syscalls as 13.1.2. 
+-  of iOS 13.1.3 Seems to have the same MACH traps as 13.1.2.
+-  of iOS 13.1.3 seems to have the same offsets as 13.1.2.  
