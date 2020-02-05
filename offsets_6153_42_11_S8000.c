@@ -1,4 +1,5 @@
 #include "offsets_6153_42_11_S8000.h"
+/* Darwin Kernel Version 19.0.0: Wed Oct  9 22:41:51 PDT 2019; root:xnu-6153.42.1~1/RELEASE_ARM64_S8000 */
 struct offsets_6153_42_11_S8000 offsets_6153_42_11_S8000 = {
 	._Assert = 0xfffffff00769fdd8,
 	._Block_size = 0xfffffff0075e75e0,

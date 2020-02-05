@@ -1,4 +1,5 @@
 #include <stdint.h>
+/* Darwin Kernel Version 19.0.0: Wed Oct  9 22:41:51 PDT 2019; root:xnu-6153.42.1~1/RELEASE_ARM64_S8000 */
 #define com_apple_kpi_mach 0xfffffff005a60000
 #define com_apple_kpi_private 0xfffffff005a60080
 #define com_apple_kpi_unsupported 0xfffffff005a60100
